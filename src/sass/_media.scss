@@ -1,0 +1,99 @@
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .blackberry__left {
+        display: none;
+    }
+
+    .section__inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__inner .nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .blackberry__right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        padding-bottom: 30px;
+    }
+
+    .splash__left {
+        display: none;
+    }
+
+    .splash__right {
+        display: none;
+    }
+
+    .strawberry {
+        display: none;
+    }
+
+    .product__right {
+        display: none;
+    }
+
+    .applebg {
+        display: none;
+    }
+
+    main .cards .card {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    main .cards .card:not(:nth-child(2n)) span {
+        margin-left: 40px;
+    }
+
+    main .cards .card:nth-child(2n) {
+        flex-direction: row-reverse;
+    }
+
+    main .cards .card:not(:nth-child(2n + 1)) span {
+        margin-right: 40px;
+    }
+
+    .berrybg,
+    .blackberrybg {
+        display: none;
+    }
+
+    section .section__inner .right {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__inner nav ul:first-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer .footer__inner nav {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    section .section__inner .right form button {
+        padding: 20px 30px;
+    }
+}

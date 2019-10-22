@@ -1,0 +1,40 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        position: relative;
+        left: 500px;
+    }
+    to {
+        position: relative;
+        left: 0px;
+    }
+}
+
+@keyframes move {
+    from {
+        right: 1000px;
+    }
+    to {
+        right: 0;
+    }
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}

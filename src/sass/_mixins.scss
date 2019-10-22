@@ -1,0 +1,27 @@
+@mixin btn($color, $pTop, $pLeft) {
+    cursor: pointer;
+    background-color: $color;
+    border-radius: 35px;
+    padding: $pTop $pLeft;
+    font-family: "Rotonda", serif;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    display: block;
+}
+
+@mixin inp {
+    padding: 24px 30px;
+    border: none;
+    color: #acacac;
+    font-family: "Rotonda";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    border-radius: 31px;
+    border: 2px solid #acacac;
+}
